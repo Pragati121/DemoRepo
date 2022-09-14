@@ -1,0 +1,7 @@
+<!DOCTYPE test SYSTEM "http://testng.org/testng-1.0.dtd">
+<test name="Verify user is logged in">
+<parameter name="browserName" value="chrome"></parameter>
+<classes>
+    <class name="Test.LoginPageTest"/>
+</classes>
+</test>
