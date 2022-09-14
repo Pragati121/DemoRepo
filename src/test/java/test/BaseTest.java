@@ -19,4 +19,8 @@ public class BaseTest {
         driver.navigate().to("https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F");
         pageFactory = new PageFactory(driver);
     }
+public void close()
+{
+    driver.close();
+}
 }
