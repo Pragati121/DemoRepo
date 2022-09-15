@@ -2,9 +2,11 @@ package test;
 
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 class VerifyEditButtonOnCustomerPage extends BaseTest{
     @Test
-    public void loginTest(){
+    public void loginTest() throws IOException {
         pageFactory.getLoginPage().loginUser();
     }
 

@@ -7,7 +7,7 @@ public class PageFactory {
     private LoginPage loginPage;
 private CustomerPage CustomerButton;
     private EditPage EditButton;
-
+    private Report  ReportButton;
     public PageFactory(WebDriver driver){
         this.driver = driver;
     }
@@ -33,4 +33,11 @@ EditButton= new EditPage(driver);
 }
 return EditButton;
 }
+    public Report getReportButton(){
+        if(ReportButton== null)
+        {
+            ReportButton= new Report(driver);
+        }
+        return ReportButton;
+    }
 }

@@ -4,25 +4,29 @@
     <listeners>
         <listener class-name="Report.Listener"/>
     </listeners>
-<test name="Verify user is logged in">
-<parameter name="browserName" value="chrome"></parameter>
-<classes>
-    <class name="test.TestVerifyUserIsAbleToLogin"/>
-</classes>
-</test>
+<!--<test name="Verify user is logged in">-->
+<!--<parameter name="browserName" value="chrome"></parameter>-->
+<!--<classes>-->
+<!--    <class name="test.TestVerifyUserIsAbleToLogin"/>-->
+<!--</classes>-->
+<!--</test>-->
 
-<test name="Verify customer button is clcikable">
-<parameter name="browserName" value="chrome"></parameter>
-<classes>
-    <class name="test.VeirfyUserIsAbleSearchCustomer"/>
-</classes>
-</test>
-
-
-<test name="Verify edit button is customer list page">
-<parameter name="browserName" value="chrome"></parameter>
-<classes>
-    <class name="test.VerifyEditButtonOnCustomerPage"/>
-</classes>
-</test>
+<!--<test name="Verify customer button is clcikable">-->
+<!--<parameter name="browserName" value="chrome"></parameter>-->
+<!--<classes>-->
+<!--    <class name="test.VeirfyUserIsAbleSearchCustomer"/>-->
+<!--</classes>-->
+<!--</test>-->
+<!--    <test name="Verify edit button is customer list page">-->
+<!--<parameter name="browserName" value="chrome"></parameter>-->
+<!--<classes>-->
+<!--    <class name="test.VerifyEditButtonOnCustomerPage"/>-->
+<!--</classes>-->
+<!--</test>-->
+    <test name="Verify edit button is customer list page">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="test.ReportTest"/>
+        </classes>
+    </test>
 </suite>
